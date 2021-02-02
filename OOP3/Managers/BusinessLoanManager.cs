@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP3
 {
-    class BusinessLoanService : ILoanBaseManager
+    class BusinessLoanManager : ILoanBaseManager
     {
         public void Calculate()
         {

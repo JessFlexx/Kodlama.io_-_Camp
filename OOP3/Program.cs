@@ -17,7 +17,7 @@ namespace OOP3
 
             
             ApplicationManager applicationManager = new ApplicationManager();
-            applicationManager.ApplyLoan(new BusinessLoanService(),
+            applicationManager.ApplyLoan(new BusinessLoanManager(),
             new List<ILoggerService> { new DataBaseLoggerService(), new SmsLoggerService() } );
 
 
