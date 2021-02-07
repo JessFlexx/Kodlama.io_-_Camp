@@ -11,7 +11,7 @@
             customer1.LastName = "Aydın";                     //(AD - (VARSA DİĞER ADLARINIZIDA GİRİN) - SOYAD - TC - DOĞUM TARİHİNİ DOĞRU GİRMENİZ GEREKİYOR) 
             customer1.Password = "200399asd";                 // DOĞRU BİLGİLER GİRİLDİĞİNDE MERNİS TC DOĞRULAMA SERVİSİ SAYESİNDE 
             customer1.Id = "1";                               // KAYIT İŞLEMİ BAŞARI İLE GERÇEKLEŞTİ Yazısı EKRANDA GÖRÜNECEKTİR
-            customer1.NationalityId = "10000000000";          // YANLIŞ BİLGİ GİRİŞİ OLURSA PROGRAM KENDİNİ DURDURUR     
+            customer1.NationalityId = "10000000000;          // YANLIŞ BİLGİ GİRİŞİ OLURSA PROGRAM KENDİNİ DURDURUR     
             customer1.DateOfBirth = new System.DateTime(1995, 5, 25);
             customer1.Nick = "StrongHead123";
             customer1.Gold = 125850;
